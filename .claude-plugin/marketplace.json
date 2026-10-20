@@ -19,6 +19,13 @@
       "description": "Manual validation plans for finished changes: local setup, happy-path steps grounded in the code, and Playwright videos.",
       "category": "engineering",
       "keywords": ["validation", "qa", "manual-testing", "playwright"]
+    },
+    {
+      "name": "prd-writer",
+      "source": { "source": "github", "repo": "westonkjones/prd-writer" },
+      "description": "PRDs as Claude Docs from a Jira ticket, Slack thread, notes or a one-line ask, grounded in the sources and the code.",
+      "category": "productivity",
+      "keywords": ["prd", "product-requirements", "spec", "claude-docs"]
     }
   ]
 }

@@ -10,6 +10,7 @@ Add the marketplace once, then install the plugins you want:
 claude plugin marketplace add westonkjones/wes-skills
 claude plugin install weston-review@wes-skills
 claude plugin install validation-plan@wes-skills
+claude plugin install prd-writer@wes-skills
 ```
 
 ## Plugins
@@ -18,5 +19,6 @@ claude plugin install validation-plan@wes-skills
 |---|---|
 | [weston-review](https://github.com/westonkjones/weston-review) | Adversarial multi-agent PR review. Focused reviewers, an independent verifier per finding, and a triage pass where you approve every comment before it posts. |
 | [validation-plan](https://github.com/westonkjones/validation-plan) | Manual validation plans for finished changes: local setup, happy-path steps grounded in the code, and Playwright videos of UI scenarios. |
+| [prd-writer](https://github.com/westonkjones/prd-writer) | PRDs as Claude Docs from a Jira ticket, Slack thread, notes or a one-line ask. Grounded in the sources and the code, with targeted questions only where the draft is thin. |
 
 To pick up new versions, run `claude plugin marketplace update wes-skills`.
